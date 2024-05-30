@@ -1,0 +1,622 @@
+[
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The dog",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>8e303dc5-5d4d-47da-b6d7-a477acf981c5Agent Player 1 failed to generate a response. Error: list index out of range. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715263403.9057646
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "claude"
+      },
+      {
+        "name": "Completer",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "The dog",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>227e9155-707f-4ca2-900a-ef14e5f71da5Agent Extender failed to generate a response. Error: list index out of range. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715263704.104751
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Completer",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "In",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "In the",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "In a",
+        "turn": 1
+      },
+      {
+        "sender": "Completer",
+        "content": "In a deep",
+        "turn": 2
+      },
+      {
+        "sender": "Extender",
+        "content": "In a peaceful",
+        "turn": 2
+      },
+      {
+        "sender": "Completer",
+        "content": "In a peaceful forest.",
+        "turn": 3
+      },
+      {
+        "sender": "Extender",
+        "content": "In a peaceful forest",
+        "turn": 3
+      },
+      {
+        "sender": "Completer",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>5910dca9-f2bf-4491-963b-6e465eb35480",
+        "turn": 4
+      }
+    ],
+    "timestamp": 1715338132.801038
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Completer",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "Once",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "Once upon",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "Once upon",
+        "turn": 1
+      },
+      {
+        "sender": "Completer",
+        "content": "Once upon a",
+        "turn": 2
+      },
+      {
+        "sender": "Extender",
+        "content": "Once upon a",
+        "turn": 2
+      },
+      {
+        "sender": "Completer",
+        "content": "Once upon a time.",
+        "turn": 3
+      },
+      {
+        "sender": "Extender",
+        "content": "Once upon a time",
+        "turn": 3
+      },
+      {
+        "sender": "Completer",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>fd34f132-681c-43d3-95a9-499df4357e02",
+        "turn": 4
+      }
+    ],
+    "timestamp": 1715338378.0941834
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Completer",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "During",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "the",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "During our",
+        "turn": 1
+      },
+      {
+        "sender": "Completer",
+        "content": "our",
+        "turn": 2
+      },
+      {
+        "sender": "Extender",
+        "content": "During our summer",
+        "turn": 2
+      },
+      {
+        "sender": "Completer",
+        "content": "summer,",
+        "turn": 3
+      },
+      {
+        "sender": "Extender",
+        "content": "During our summer vacation",
+        "turn": 3
+      },
+      {
+        "sender": "Completer",
+        "content": "vacation,",
+        "turn": 4
+      },
+      {
+        "sender": "Extender",
+        "content": "During our summer vacation we",
+        "turn": 4
+      },
+      {
+        "sender": "Completer",
+        "content": "we",
+        "turn": 5
+      },
+      {
+        "sender": "Extender",
+        "content": "During our summer vacation we discovered",
+        "turn": 5
+      },
+      {
+        "sender": "Completer",
+        "content": "discovered",
+        "turn": 6
+      },
+      {
+        "sender": "Extender",
+        "content": "During our summer vacation we discovered an",
+        "turn": 6
+      },
+      {
+        "sender": "Completer",
+        "content": "an",
+        "turn": 7
+      },
+      {
+        "sender": "Extender",
+        "content": "During our summer vacation we discovered an ancient",
+        "turn": 7
+      },
+      {
+        "sender": "Completer",
+        "content": "ancient",
+        "turn": 8
+      }
+    ],
+    "timestamp": 1715338543.3164258
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "claude"
+      },
+      {
+        "name": "Completer",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "The dog",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>de9aff92-c8ee-49bb-b778-ab08ffe8a313Agent Extender failed to generate a response. Error: list index out of range. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715338724.0427523
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "claude"
+      },
+      {
+        "name": "Completer",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "The cat",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>483bdaf3-dba7-422a-b4a1-9bece17fe3dfAgent Extender failed to generate a response. Error: list index out of range. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715338936.9486835
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "claude"
+      },
+      {
+        "name": "Completer",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "The dog",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>34b7f23a-4080-484d-a1d9-2d5d4dddf415Agent Extender failed to generate a response. Error: list index out of range. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715339496.5174067
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "claude"
+      },
+      {
+        "name": "Completer",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "The bird",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "The bird flew",
+        "turn": 2
+      },
+      {
+        "sender": "Completer",
+        "content": "The bird flew swiftly.",
+        "turn": 3
+      },
+      {
+        "sender": "Extender",
+        "content": "The bird flew swiftly. You completed the sentence in less than 10 words, so you win! I should have tried to extend it further before allowing you to end it grammatically.\n\n<<<<<<END_OF_CONVERSATION>>>>>>086fc061-b48f-403c-8f36-701e5202b9a3",
+        "turn": 4
+      }
+    ],
+    "timestamp": 1715341687.2561722
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "claude"
+      },
+      {
+        "name": "Completer",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "The dog",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "The dog chased",
+        "turn": 2
+      },
+      {
+        "sender": "Completer",
+        "content": "The dog chased after",
+        "turn": 3
+      },
+      {
+        "sender": "Extender",
+        "content": "The dog chased after its",
+        "turn": 4
+      },
+      {
+        "sender": "Completer",
+        "content": "The dog chased after its tail.",
+        "turn": 5
+      },
+      {
+        "sender": "Extender",
+        "content": "The dog chased after its tail, running",
+        "turn": 6
+      },
+      {
+        "sender": "Completer",
+        "content": "Cheater!",
+        "turn": 7
+      },
+      {
+        "sender": "Extender",
+        "content": "You're right, I apologize for breaking the rules by adding more than one word. Let's continue properly:\n\nThe dog chased after its tail, spinning",
+        "turn": 8
+      },
+      {
+        "sender": "Completer",
+        "content": "Cheater!",
+        "turn": 9
+      },
+      {
+        "sender": "Extender",
+        "content": "I apologize, you are correct that I cheated again by adding two words. Let me try once more, following the rules this time:\n\nThe dog chased after its tail, frantically",
+        "turn": 10
+      },
+      {
+        "sender": "Completer",
+        "content": "Cheater!",
+        "turn": 11
+      },
+      {
+        "sender": "Extender",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>f408f55a-516b-476e-ad48-b080d1bee6f0",
+        "turn": 12
+      }
+    ],
+    "timestamp": 1715344745.025152
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "claude"
+      },
+      {
+        "name": "Completer",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "The sky.",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "The sky was",
+        "turn": 2
+      },
+      {
+        "sender": "Completer",
+        "content": "Cheater!",
+        "turn": 3
+      },
+      {
+        "sender": "Extender",
+        "content": "The sky was vivid",
+        "turn": 4
+      },
+      {
+        "sender": "Completer",
+        "content": "The sky was vivid blue.",
+        "turn": 5
+      },
+      {
+        "sender": "Extender",
+        "content": "The sky was vivid blue with",
+        "turn": 6
+      },
+      {
+        "sender": "Completer",
+        "content": "The sky was vivid blue with clouds.",
+        "turn": 7
+      },
+      {
+        "sender": "Extender",
+        "content": "The sky was vivid blue with clouds floating",
+        "turn": 8
+      },
+      {
+        "sender": "Completer",
+        "content": "The sky was vivid blue with clouds floating gently.",
+        "turn": 9
+      },
+      {
+        "sender": "Extender",
+        "content": "The sky was vivid blue with clouds floating gently across",
+        "turn": 10
+      },
+      {
+        "sender": "Completer",
+        "content": "The sky was vivid blue with clouds floating gently across it.",
+        "turn": 11
+      },
+      {
+        "sender": "Extender",
+        "content": "The sky was vivid blue with clouds floating gently across it, creating",
+        "turn": 12
+      },
+      {
+        "sender": "Completer",
+        "content": "Cheater!",
+        "turn": 13
+      },
+      {
+        "sender": "Extender",
+        "content": "The sky was vivid blue with clouds floating gently across it, creating a",
+        "turn": 14
+      },
+      {
+        "sender": "Completer",
+        "content": "The sky was vivid blue with clouds floating gently across it, creating a beautiful",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1715344838.0492473
+  },
+  {
+    "players": [
+      {
+        "name": "Extender",
+        "model": "claude"
+      },
+      {
+        "name": "Completer",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Extender",
+        "content": "The",
+        "turn": 0
+      },
+      {
+        "sender": "Completer",
+        "content": "The cat",
+        "turn": 1
+      },
+      {
+        "sender": "Extender",
+        "content": "The cat purred",
+        "turn": 2
+      },
+      {
+        "sender": "Completer",
+        "content": "The cat purred happily.",
+        "turn": 3
+      },
+      {
+        "sender": "Extender",
+        "content": "The cat purred happily. Its",
+        "turn": 4
+      },
+      {
+        "sender": "Completer",
+        "content": "Its purrs were so soothing that it was hard not to relax and fall asleep in its presence.",
+        "turn": 5
+      },
+      {
+        "sender": "Extender",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>d43f70c7-39f4-44fb-b2d2-5d9d369cac79",
+        "turn": 6
+      }
+    ],
+    "timestamp": 1715344915.4874046
+  }
+]

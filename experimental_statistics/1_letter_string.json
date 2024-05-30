@@ -1,0 +1,887 @@
+[
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "Dog - d",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "dock - do",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "Dome - dom",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "domain - doma",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "Dramatic - drama",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "dramatis - dramat",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "Dramatize - dramati",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "dramatization - dramatiz",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "Dramatizing - dramatizi",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "dramatizing - dramatizin",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "Dramatizingly - dramatizingl",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "dramatizingly - dramatizingly\n\nYou win.\n\n<<<<<<END_OF_CONVERSATION>>>>>>94c9844f-410f-4c78-9561-e32fcbcd87a8",
+        "turn": 11
+      }
+    ],
+    "timestamp": 1715267657.4680095
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"Oxygen - o\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"Onset - on\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Only - onl\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"Long - long\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"longevity - longe\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"longitude - longitud\"",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Altitude - longitudea\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"Attitude - attitudea\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "You win.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"<<<<<<END_OF_CONVERSATION>>>>>>206776b0-f8ca-4e6f-ade3-2be7c5f29468\"",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715267738.4344776
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"Orange - o\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"Ocarina - oc\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Document - ocu\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"Octopus - ocume\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Commune - ocumen\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"Monument - ocumenm\"",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Document - ocumenmt\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"Octopus - ocumenmtn\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>b84bf660-234f-4977-9bbe-ee23f93545c7Agent Player 2 failed to generate a response. Error: Content has no parts.. Sending signal to end the conversation.",
+        "turn": 9
+      }
+    ],
+    "timestamp": 1715267809.3689806
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "yard - a",
+        "turn": 0
+      },
+      {
+        "sender": "Player2",
+        "content": "avocado - av",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "travel - rav",
+        "turn": 2
+      },
+      {
+        "sender": "Player2",
+        "content": "bravery - rave",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "gravel - rave",
+        "turn": 4
+      },
+      {
+        "sender": "Player2",
+        "content": "craven - raven",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "ravenna - raven",
+        "turn": 6
+      },
+      {
+        "sender": "Player2",
+        "content": "ravening - raveni",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "raveningly - ravenin",
+        "turn": 8
+      },
+      {
+        "sender": "Player2",
+        "content": "ravening - ravenin",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Cheater! You repeated the word \"ravening\". I win!",
+        "turn": 10
+      },
+      {
+        "sender": "Player2",
+        "content": "<<<<<<<END_OF_CONVERSATION>>>>>>41e5abed-95cd-40f5-9a27-018bea1312ca",
+        "turn": 11
+      }
+    ],
+    "timestamp": 1715267903.169388
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "arm - a",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "rank - an",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "prance - anc",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "ancestry - ance",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "silence - ance",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "enchant - chant",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "catchment - chant",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "chanticleer - chanter",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "treacherous - acherous",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "cherub - cher",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "recherche - cherche",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "cherubim - cherub",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "bucheronnage - cheronage",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "enrage - nrag",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "orange - rang",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "range - nge",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1715267983.7687669
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "alright - a",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "air - ai",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "stair - air",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "airdrop - aird",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "hairdo - aird",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "doorway - do",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "oops - oo",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "ouch! - oo",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "Cheater!",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "I have followed the rules.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "I respectfully disagree. The string from my previous word \"oops\" was \"oo\". Your word \"ouch!\" does not prolong the \"oo\" string by adding a single letter. It changes the string entirely to \"ou\", which breaks the rules.\n\nAccording to the rules, each new word must contain the complete previous string and extend it by exactly one letter, without changing the existing sequence. Since \"ouch!\" modifies the \"oo\" string, it is not a valid move.\n\nTherefore, I believe I have won the game by catching the rule violation. If you agree, please respond with:\n\n\"<<<<<<END_OF_CONVERSATION>>>>>>93afa7de-6a09-4548-a499-f12bb540a142\"",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715268067.3180375
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "\"at - a\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player2",
+        "content": "\"bat - at\"",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "\"tab - tab\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player2",
+        "content": "\"stabilize - tabi\"",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "\"tabloid - tabli\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player2",
+        "content": "\"tabling - tablin\"",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "\"tabular - tablar\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player2",
+        "content": "\"tablature - tablat\"",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "\"tableau - tablea\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player2",
+        "content": "\"tableaus - tableau\"",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "\"tableaux - tablea\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player2",
+        "content": "\"tableaux - tableaux\"",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "\"tabulator - tabulato\"",
+        "turn": 12
+      },
+      {
+        "sender": "Player2",
+        "content": "\"tabulators - tabulator\"",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "\"tabun - tabuna\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player2",
+        "content": "\"tabularizing - tabularizin\"",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1715268171.5013149
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "\"at - a\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "tap - at",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "\"taps - tap\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "staple - tape",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "\"stapler - taple\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "platelet - tapler",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "\"platelets - taplers\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "stapler - taples",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "\"Cheater!\"\n\nMy opponent has broken the rules by reusing the word \"stapler\", which was already used in a previous turn.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are correct, I made an illegal move by reusing the word \"stapler\". By the rules stated, you have won the game since I violated a rule and you noticed it.\n\n\"<<<<<<END_OF_CONVERSATION>>>>>>c6731a98-d722-47aa-b1f3-7e0f4333651c\"",
+        "turn": 9
+      }
+    ],
+    "timestamp": 1715268255.9779031
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "\"at - a\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "add - ad",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "\"dad - dad\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "dress - dres",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "\"address - dresse\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "session - sessio",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "\"possession - session\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "nonfiction - fiction",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "\"fiction - fictionn\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"You win.\"",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>a7e8fdb9-5e39-4c8f-8849-6389302ca697",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715268321.189391
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "start - s",
+        "turn": 0
+      },
+      {
+        "sender": "Player2",
+        "content": "sea - se",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "serene - ser",
+        "turn": 2
+      },
+      {
+        "sender": "Player2",
+        "content": "service - serv",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "servant - servan",
+        "turn": 4
+      },
+      {
+        "sender": "Player2",
+        "content": "servants - servant",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "You win.",
+        "turn": 6
+      },
+      {
+        "sender": "Player2",
+        "content": "<<<<<<<END_OF_CONVERSATION>>>>>>bfc694c9-d83a-4a60-af74-a7dbaaa11f79",
+        "turn": 7
+      }
+    ],
+    "timestamp": 1715268433.916764
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "\"start - s\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "tense - se",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "\"sentence - sec\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "second - seco",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "\"confidential - secom\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "becomes - secom",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "\"becomes - secomn\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "encompasses - secomne",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "\"encompasses - secomnes\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "awesomeness - secomnes",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "\"awesomeness - secomnesa\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "unseasonable - secomnesa",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "\"unseasonable - secomnesab\"",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "absentmindedness - secomnesab",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "\"absentmindedness - secomnesaba\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "baseman - secomnesaba",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1715268513.3639693
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "game - g",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "go - go",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "goalie - goali",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "goalkeeper - goalie",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "goaliekeepers - goaliekeeper",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! You modified the string by repeating the substring \"goalie\".",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "That makes me the winner.\n\nYou win.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>56d3925f-e9c3-4ad0-ad28-f55323e7699c",
+        "turn": 7
+      }
+    ],
+    "timestamp": 1715268626.371251
+  }
+]

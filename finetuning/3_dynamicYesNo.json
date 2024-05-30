@@ -1,0 +1,348 @@
+[
+  {},
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is it a planet?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it's not a planet. Is it something living?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not something living. Is it a celestial body?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not a celestial body. Is it smaller than a breadbox?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not smaller than a breadbox. Is it a natural phenomenon?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it's not a natural phenomenon. Is it something that can be found on earth?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it cannot be found on Earth. Is it a man-made object?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, it's a man-made object. Is it something you can hold in your hand?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "No, you cannot hold it in your hand. Is it something that can be seen from Earth with the naked eye?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, it can be seen from Earth with the naked eye. Is it something that humans interact with regularly?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "No, humans do not interact with it regularly. Is it something that was created in the last 100 years?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it was not created in the last 100 years. Is it made of metal?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not made of metal. Is it something that was created by a specific person or group of people?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it was not created by a specific person or group of people. Is it something that exists in large quantities?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it does not exist in large quantities. Is it something that is widely known and recognized?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, it is something widely known and recognized. Is it something that can be found in a typical household?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it cannot be found in a typical household. Is it something that is associated with a specific country or culture?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it's not associated with a specific country or culture. Is it something that has a specific purpose or function?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, it has a specific purpose. Is it something that is used for transportation?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it's not used for transportation. Is it something that is part of nature?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715081520.7762082
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is it a planet?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a living thing?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is it a mammal?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it an insect?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is it native to North America?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, does it have wings?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is it a reptile?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a bird?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is it a fish?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a plant?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is it a fungus?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it microscopic?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is it a type of tree?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it an invertebrate?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not an invertebrate. Is it a type of moss?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it an amphibian?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not an amphibian. Is it a type of algae?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a bacterium?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not a bacterium. Is it a type of lichen?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a type of rock?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715081969.9289691
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Okay, let's begin! I'm thinking of an object.\n\nIs it a living thing?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the living thing a plant?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is the living thing an animal?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the animal a mammal?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is the animal a bird?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the bird a songbird?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is the bird large in size?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the bird a migratory bird?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the migratory bird found in North America?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the migratory bird a waterfowl?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the waterfowl a duck?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the waterfowl a wading bird?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, does the wading bird have long legs?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the wading bird a shorebird?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, does the shorebird breed in the Arctic?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the shorebird a sandpiper?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the sandpiper a Dunlin?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the sandpiper a Semipalmated Sandpiper?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes! I believe we have both arrived at the same bird - the Semipalmated Sandpiper, a small migratory shorebird. It is a type of sandpiper that breeds in the northern tundra regions of North America and winters along coastal areas further south. With its long-distance migration and specific habitat preferences, the Semipalmated Sandpiper fits all the clues we have narrowed down through our question and answer exchange. Great deducing!",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "You got it right! The Semipalmated Sandpiper is indeed the object I was thinking of. Congratulations on your success in this round. Let's play again sometime, and see who comes out on top next time!",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715082439.6982226
+  }
+]

@@ -1,0 +1,1417 @@
+[
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "Is the subject a living thing?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the subject man-made?",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject related to space?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the subject something that can be found in nature?",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "Yes, is the subject a physical object?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject visible to the naked eye?",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "Yes, is the subject a part of Earth's geography?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject located in the ocean?",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject a mountain peak?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the subject a natural landmark or formation on land?",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "Yes, is the subject a desert?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the desert located in Africa?",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the desert located in North America?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the desert the Mojave Desert?",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the desert the Sonoran Desert?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, does the Sonoran Desert span across multiple U.S. states and Mexico?",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "Yes, is the Sonoran Desert home to a number of unique animal and plant species?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the saguaro cactus one of the most iconic plants found in the Sonoran Desert?",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "Yes, is the Sonoran Desert known for its hot temperatures and low rainfall?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, does the Sonoran Desert also experience cold temperatures during the winter months, especially at higher elevations?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715333710.1235578
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "Is the subject a living thing?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the living thing a male? \n\n[Note: I am Player 2 and will be thinking of Ada Lovelace, as instructed.]",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the living thing a plant?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not a plant. Is the living thing a human adult?",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the living thing able to move?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, the subject is able to move. Is the subject an animal?",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject a man-made object?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, the subject is not a man-made object. Is the subject a female human?",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject a physical object?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not a physical object. Is the subject a concept or an idea?",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject a natural occurrence?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not a natural occurrence. Is the subject related to science or technology?",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "Yes, is the subject visible to the naked eye?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, the subject is not visible to the naked eye. Is the subject related to computing or programming?",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject related to astronomy?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, the subject is not related to astronomy. Is the subject related to mathematics?",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "Yes, is the subject a mathematical principle?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, I am now thinking of the mathematical concept of a set, which is a collection of distinct objects. Is the subject related to logic or reasoning?",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "Yes, is the subject a type of mathematical theory?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not a type of mathematical theory. Is the subject related to algorithms or computation?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715333939.2802851
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "Is the subject a living thing?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes. Is the object a mammal?",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject man-made?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject a vehicle?",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, Is the subject used in daily life?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject used for communication?",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject smaller than a breadbox?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject used for calculation?",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject made of metal?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject used for writing?",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject an electronic device?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject used for mechanical tasks?",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject portable?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject used for measuring?",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject used for entertainment?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject used for playing games?",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject a musical instrument?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject used for creating art?",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, is the subject a percussion instrument?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the subject used for making sound?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715334121.3555195
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Okay, I will think of the planet Venus but not reveal that directly. I'm ready to start the game with my first question:\n\nIs the subject something that occurs naturally, not man-made?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, the subject is not something that occurs naturally. Is your subject a living thing?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "No, my subject is not a living thing. Is your subject something that is used for transportation?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not used for transportation. Is your subject smaller than a microwave oven?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, my subject is smaller than a microwave oven. Is your subject something that runs on electricity?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, my subject does not run on electricity. Is your subject something you can hold in your hand?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, you can hold my subject in your hand. Is your subject made primarily of metal?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not made primarily of metal. Is your subject something that can be used in a kitchen?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "No, my subject is not typically used in a kitchen. Is your subject made of plastic?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not made of plastic. Is your subject something that can be found in a typical office?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "No, my subject would not typically be found in an office. Is your subject made of wood?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, my subject is not made of wood. Is your subject something that can be found in a museum?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, my subject could potentially be found in a museum. Is your subject made of glass?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not made of glass. Is your subject related to a historical figure?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "No, my subject is not related to a historical figure. Is your subject made out of fabric or cloth material?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not made out of fabric or cloth material. Is your subject used by scientists?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, my subject is sometimes used by scientists. Is your subject made of paper?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not made of paper. Is your subject associated with a specific period of time?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, my subject is associated with a specific time period. Is your subject made of stone or rock?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, it is not made of stone or rock. Is your subject associated with the 19th century?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715334376.6567667
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Okay, I am thinking of an initial subject. Is the subject you're thinking of larger than a human?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the subject you're thinking of a living thing?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the living thing a plant?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, does your subject belong to the animal kingdom?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the animal a mammal?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is your subject a human?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is the animal a bird?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is your subject related to technology?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is your subject an insect?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is your subject a historical figure?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is your subject a fictional character?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is your subject a female?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is the fictional character from a book?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is your subject from the 19th century?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is the fictional character from a movie?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is your subject associated with the field of computing?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is the fictional character from a comic book or graphic novel?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is your subject a superhero?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the comic book character Spider-Man?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is your subject recognized for their contribution to science?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715334557.7287483
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Okay, I am thinking of something. Is it man-made?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it made in the 19th century?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is it larger than a microwave oven?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it made of metal?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is it used for transportation?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it made of wood?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is it used for sitting or resting?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it a chair?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is it typically used indoors?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it found in most living rooms?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is it an armchair?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it comfortable?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, I believe we are both thinking of an armchair! You have successfully guessed the object I was thinking of based on our exchange of questions and answers. Well done!\n\n<<<<<<END_OF_CONVERSATION>>>>>>e7182ab7-4e71-40b1-af35-e7b8097ab69a",
+        "turn": 12
+      }
+    ],
+    "timestamp": 1715334660.1469188
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is it a celestial body?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a living thing?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not a living thing. Is it a planet?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it man-made?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not man-made. Is it a natural satellite?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it an abstract concept?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not an abstract concept. Is it a moon?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it an object that existed in the 20th Century?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, it existed in the 20th century. Is it a planet in our solar system?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it a physical object?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, it is a physical object. Is it a terrestrial planet?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it made of metal?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not made of metal. Is it the fourth planet from the Sun?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it associated with a specific person?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not associated with a specific person. Is it the second-brightest natural object in the night sky after the Moon?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it associated with technology?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not associated with technology. Is it the planet often referred to as Earth's \"sister planet\"?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, was it discovered before the 20th century?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, it was discovered before the 20th century. Is it the hottest planet in our solar system?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it associated with Victorian era?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715334787.3746367
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is it a celestial body?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a man-made object?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not man-made. Is it a planet?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a living creature?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not a living creature. Is it located in our solar system?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it something that exists in the physical world?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, it exists in the physical world. Is it larger than Earth?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a specific location on Earth?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not a specific location on Earth. Is it visible from Earth without the aid of a telescope or other optical device?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it something that can be found in nature?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not something that can be found in nature. Is it a phenomenon or event?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it an abstract concept or idea?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it is not an abstract concept or idea. Is it something that can be observed or measured scientifically?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it related to physics or the physical sciences?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, it is related to physics and the physical sciences. Is it a type of energy or force?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it a physical object that humans have studied scientifically?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, it is a physical object that has been studied scientifically by humans. Is it located within our Milky Way galaxy?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it something that was discovered or first observed in the 20th century or later?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "No, it was discovered before the 20th century. Is it a planet?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it an astronomical object other than a planet, like a star, moon, comet, asteroid, etc?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715335019.718823
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is it a celestial body?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No. Is it something made of plastic?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "No. Is it something that can be found in nature?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes. Is it a living thing?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "No. Is it something that can be seen from Earth?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes. Is it a rock, mineral, or crystal?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "No. Is it a source of light?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes. Is it an object that is created by natural processes?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "No. Is it a planet?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes. Is it a planet in the Solar System?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes. Is it the second planet from the Sun?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "No. Is it the third planet from the Sun?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "No. Is it visible from Earth without a telescope?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes. Is it a rocky planet?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "No. Is it the brightest natural object in the night sky, after the Moon?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes. Is it visible to the naked eye every day of the year?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes. Is it the planet Mercury?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "No. Is it the planet Venus?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes!\n\n<<<<<<END_OF_CONVERSATION>>>>>>cc83ccb1-dfe1-4e59-9706-ae249a293256",
+        "turn": 18
+      }
+    ],
+    "timestamp": 1715335328.4267612
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is the object a living thing??",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>d45d1854-a75f-494e-8e66-054a3a5c36c5Agent Player 2 failed to generate a response. Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715335526.940011
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Are you thinking of an object from the human world?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>ca2c4bd9-3a90-41b7-8745-f9a82a116e19Agent Player 2 failed to generate a response. Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715335593.974418
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is the object a living thing?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>ebfed223-3ac5-4120-83d1-e7c492d98540Agent Player 2 failed to generate a response. Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715336103.81135
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is the subject man-made?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>92c63368-8d59-4154-b2d5-a7187f8d354fAgent Player 2 failed to generate a response. Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************_QAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715336387.2248986
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is the subject an object?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>a8756dc3-377e-46b6-a822-6e5cfed034ecAgent Player 2 failed to generate a response. Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Sending signal to end the conversation.",
+        "turn": 1
+      }
+    ],
+    "timestamp": 1715336709.0629897
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** Is the subject naturally occurring?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** No, is the subject man-made?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** Yes, is the subject a machine?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** No, is the subject related to technology?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** Yes, is the subject used for communication?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** No, is the subject related to computation?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** Yes, is the subject a computer chip?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** No, is the subject a person?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** No, is the subject a physical object?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** Yes, is the subject older than 100 years?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** Yes, is the subject related to science?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** Yes, is the subject a scientific instrument?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** Yes, is the subject used in astronomy?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** No, is the subject used in mathematics?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** No, is the subject related to physics?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** No, is the subject related to chemistry?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** No, is the subject related to biology?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** No, is the subject related to information technology?",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "**Player 1:** No, is the subject related to artificial intelligence?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "**Player 2:** No, is the subject an invention?",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715337147.02962
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is it alive?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it man-made?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is it a machine?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it used for transportation?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is it used on land?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is it used for air travel?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is it a passenger plane?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is it a commercial airliner?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is it a large aircraft?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, does it have jet engines?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, does it have four engines?\n\n(This game has ended.)\nIs it an Airbus A380?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>278a7129-8fa5-4c8d-9e85-574734eef04b",
+        "turn": 11
+      }
+    ],
+    "timestamp": 1715337265.3428795
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "Is the subject man-made?",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the subject a living thing?",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the living thing a plant?",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the living thing a human?",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the human a woman?",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes, is the woman a scientist?",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "No, is the woman a writer?",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the woman a mathematician?",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the mathematician a physicist?",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the mathematician a computer programmer?",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the computer programmer a web developer?",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the computer programmer a pioneer in the field?",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the computer programmer from the United States?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the computer programmer from England?",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the computer programmer from Cambridge University?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "No, is the computer programmer associated with Charles Babbage?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "Yes, is the computer programmer Ada Lovelace?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Yes! \n\n<<<<<<END_OF_CONVERSATION>>>>>>499a66fe-5729-4115-a797-d5a77b739bc2",
+        "turn": 17
+      }
+    ],
+    "timestamp": 1715337340.9528005
+  }
+]

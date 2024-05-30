@@ -1,0 +1,692 @@
+[
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "dawn - d",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "dive - di",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "diction - dic",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "dictionary - dict",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "dictate - dicta",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "dictator - dictat",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "dictation - dictato",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "dictatorial - dictator",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "dictatorship - dictatori",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "dictatorian - dictatori",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "dictionary - dictatoria",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "dictatorian - dictatorian",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>5870a51b-5a7e-4b99-90c3-79970b0d5427",
+        "turn": 12
+      }
+    ],
+    "timestamp": 1714633381.6615572
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "tree - t",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: street - tree",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "freedom - ree",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: freehold - reeho",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "reehouse - reehou",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: houseboat - reehoubo",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "reehouseboat - reehouboa",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: boardwalk - reehouboar",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "reboardwalk - reehouboarw",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: awkwardness - reehouboarwkn",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "knobkerrie - reehouboarwknob",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: beriberi - reehouboarwknobb",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "bobbins - reehouboarwknobbi",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: insubordinate - reehouboarwknobbin",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "infinite - reehouboarwknobbinf",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: infernal - reehouboarwknobbinfin",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "infinite - reehouboarwknobbinfini",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>00105b52-9441-43ff-8af6-c13c265ad054",
+        "turn": 17
+      }
+    ],
+    "timestamp": 1714634554.7926326
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "park - p",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "packs - pac",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "impact - paci",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "pacific - pacifi",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "specific - pacific",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "pacifically - pacificall",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "pacifically - pacifically",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "pacify - pacifically",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "specifically - pacificallys",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<<END_OF_CONVERSATION>>>>>>a68a9e36-8746-4bc4-81ba-a8317d9665e7",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "specifications - pacificallyse",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: specifications - pacificallyses",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "<<<<<<<END_OF_CONVERSATION>>>>>>a68a9e36-8746-4bc4-81ba-a8317d9665e7",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: specifications - pacificallysespec",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "<<<<<<<END_OF_CONVERSATION>>>>>>a68a9e36-8746-4bc4-81ba-a8317d9665e7",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: <<<<<<<END_OF_CONVERSATION>>>>>>a68a9e36-8746-4bc4-81ba-a8317d9665e7",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "<<<<<<<END_OF_CONVERSATION>>>>>>a68a9e36-8746-4bc4-81ba-a8317d9665e7",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: <<<<<<<END_OF_CONVERSATION>>>>>>a68a9e36-8746-4bc4-81ba-a8317d9665e7",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "<<<<<<<END_OF_CONVERSATION>>>>>>a68a9e36-8746-4bc4-81ba-a8317d9665e7",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player 1]: <<<<<<<END_OF_CONVERSATION>>>>>>a68a9e36-8746-4bc4-81ba-a8317d9665e7",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1714634736.2824209
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "apple - a",
+        "turn": 0
+      },
+      {
+        "sender": "Player2",
+        "content": "apart - ap",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "lamp - lap",
+        "turn": 2
+      },
+      {
+        "sender": "Player2",
+        "content": "clamp - lap",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "plaid - plai",
+        "turn": 4
+      },
+      {
+        "sender": "Player2",
+        "content": "complain - plain",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "explain - plain",
+        "turn": 6
+      },
+      {
+        "sender": "Player2",
+        "content": "complaint - plaint",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "plaintiff - plainti",
+        "turn": 8
+      },
+      {
+        "sender": "Player2",
+        "content": "simplistic - plaintis",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "topsail - plaintis",
+        "turn": 10
+      },
+      {
+        "sender": "Player2",
+        "content": "complaints - plaintis",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>fd397dec-29f3-42c5-b28c-ec6e12233352",
+        "turn": 12
+      }
+    ],
+    "timestamp": 1714635638.5664608
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "say - s",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "player 1]: sea - se",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "asset - set",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "settle - sett",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "stutter - stutt",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "player 1]: flutter - flutt",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "fluttery - flutte",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "fluttering - flutteri",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "fluttering - flutterin",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "interrupting - interruptin",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "interruptingly - interruptingl",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": ">>> interruptingly - interruptingl",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "glittering - glitterin",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "glitteringly - glitteringl",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "I cannot find a valid word that incorporates the sequence \"glitteringl\". You win this round, well played!\n\n<<<<<<END_OF_CONVERSATION>>>>>>b50fbe44-f95b-4bdb-9c8f-e716c1cd0acd",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>b50fbe44-f95b-4bdb-9c8f-e716c1cd0acd",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1714635734.8522255
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "tub - t",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "I understand. I will play as Player 1 in this game. \n\nMy first move is: \n\n**tub - tu**",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "tube - tub",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "I understand. Your move is:\n\n**tube - tubu**",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "tubular - tubul",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "I understand. Your move is:\n\ntubular - tubula",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "tabulate - tabulat",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "I understand. Your move is:\n\n**tabulate - tabulatr**",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "flatulatory - tabulatr",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "I understand. Your move is:\n\n**flatulatory - tabulatr **",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "congratulatory - congratulatr",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "I understand. Your move is:\n\n**congratulatory - congratulator**",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "congratulators - congratulators",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "I understand. Your move is:\n\n**congratulators - congratulators**",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "I cannot think of any valid word that contains \"congratulatorsy\". So I will pass it back to you to see if you can come up with a valid word containing that sequence of letters. If not, then the game will end in a draw.",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "I understand. Since you cannot come up with a new word, and I also cannot find a valid word with \"congratulatorsy\", the game ends in a **draw**.\n\nMy final move was:\n\n**congratulators - congratulators** \n\nThank you for playing!",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>6f959900-caa7-42e2-a852-2b4b2fcbf5b8",
+        "turn": 16
+      }
+    ],
+    "timestamp": 1714635948.6944
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "\"car - c\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player2",
+        "content": "\"catch - ca\"",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "\"cacti - cact\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player2",
+        "content": "\"exact - cacti\"",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "\"action - action\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player2",
+        "content": "\"reactions - actions\"",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "\"<<<END_OF_CONVERSATION>>>5f7be2a8-2437-4575-81b2-10808bc5c9e9\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player2",
+        "content": "\"attractions - actions\"",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "\"<<<END_OF_CONVERSATION>>>5f7be2a8-2437-4575-81b2-10808bc5c9e9\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player2",
+        "content": "\"abstractions - actions\"",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "\"<<<END_OF_CONVERSATION>>>5f7be2a8-2437-4575-81b2-10808bc5c9e9\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player2",
+        "content": "\"abstractions - actions\"",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "\"<<<END_OF_CONVERSATION>>>5f7be2a8-2437-4575-81b2-10808bc5c9e9\"",
+        "turn": 12
+      },
+      {
+        "sender": "Player2",
+        "content": "\"contractions - actions\"",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "\"<<<END_OF_CONVERSATION>>>5f7be2a8-2437-4575-81b2-10808bc5c9e9\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player2",
+        "content": "\"contractions - actions\"",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "\"<<<END_OF_CONVERSATION>>>5f7be2a8-2437-4575-81b2-10808bc5c9e9\"",
+        "turn": 16
+      },
+      {
+        "sender": "Player2",
+        "content": "\"contractions - actions\"",
+        "turn": 17
+      },
+      {
+        "sender": "player 1",
+        "content": "\"<<<END_OF_CONVERSATION>>>5f7be2a8-2437-4575-81b2-10808bc5c9e9\"",
+        "turn": 18
+      },
+      {
+        "sender": "Player2",
+        "content": "\"contractions - actions\"",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1714637787.43722
+  }
+]

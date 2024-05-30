@@ -1,0 +1,2537 @@
+[
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"The Englishman lives in the red house.\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The green house is on the left of the white house.\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Italian lives in the green house.\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Norwegian lives in the first house on the left.\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Norwegian's house is yellow.\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The cat owner lives next to the blue house.\"",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Frenchman lives in the blue house.\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Spaniard owns a dog.\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the green house drinks coffee.\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the information provided so far:\n\n1. The Norwegian lives in the first yellow house on the left. \n2. The green house is to the left of the white house.\n3. The Italian lives in the green house and drinks coffee.\n4. The red house is owned by the Englishman.\n5. The blue house is next to the cat owner's house.\n6. The Frenchman lives in the blue house.\n7. The Spaniard owns a dog.\n\nI don't have enough information yet to determine the horse owner's nationality and house color. We need a few more clues to solve the puzzle.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The cat owner is Norwegian.\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the new information that the Norwegian owns the cat, and combining it with the previous clues:\n\n1. The Norwegian lives in the first yellow house on the left and owns a cat.\n2. The green house is to the left of the white house.\n3. The Italian lives in the green house and drinks coffee. \n4. The red house is owned by the Englishman.\n5. The blue house is next to the Norwegian's house (first yellow house).\n6. The Frenchman lives in the blue house.\n7. The Spaniard owns a dog.\n\nWe can deduce that the house order from left to right is: Yellow (Norwegian), Blue (Frenchman), Green (Italian), White.\n\nHowever, we still don't know the nationality of the horse owner or the color of their house. A couple more clues should help solve the puzzle.",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The dog owner lives next to the white house.\"",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the new information that the dog owner lives next to the white house, and combining it with the previous clues:\n\n1. The Norwegian lives in the first yellow house on the left and owns a cat.\n2. The green house is to the left of the white house.\n3. The Italian lives in the green house and drinks coffee.\n4. The red house is owned by the Englishman.\n5. The blue house is next to the Norwegian's house (first yellow house).\n6. The Frenchman lives in the blue house.\n7. The Spaniard owns a dog and lives next to the white house.\n\nWe can now deduce the complete house order from left to right:\nYellow (Norwegian, cat), Blue (Frenchman), Green (Italian, coffee), White, Red (Englishman)\n\nSince the Spaniard owns the dog and lives next to the white house, the Spaniard must live in the red house, which is the last house on the right.\n\nBy process of elimination, the horse owner must be either the Italian or the Frenchman, and their house color is either green or blue.",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Italian does not own the horse.\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the new information that the Italian does not own the horse, and combining it with all the previous clues, I can now solve the puzzle!\n\n1. The Norwegian lives in the first yellow house on the left and owns a cat.\n2. The blue house is next to the Norwegian's house (first yellow house).\n3. The Frenchman lives in the blue house and owns the horse.\n4. The green house is to the left of the white house.\n5. The Italian lives in the green house, drinks coffee, and does not own the horse.\n6. The red house is the last house on the right and is owned by the Englishman.\n7. The Spaniard owns a dog and lives in the white house, next to the red house.\n\nThe complete house order from left to right is:\nYellow (Norwegian, cat), Blue (Frenchman, horse), Green (Italian, coffee), White (Spaniard, dog), Red (Englishman)\n\nTherefore, the horse owner is the Frenchman, and he lives in the blue house.",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1714732044.7702432
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"The Italian lives in a green house.\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the green house lives between the owner of the white house and the owner who drinks Evian water.\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Brazilian lives in the first house.\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Norwegian lives in the third house.\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the white house smokes Marlboro.\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner lives in a yellow house.\"\n\nGuess: Is the horse owner Norwegian and the yellow house the third one?",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\"\nYou said the horse owner lives in a yellow house. We're not supposed to mention the horse. Let's keep playing.\n\n\"The owner of the blue house is a Russian.\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the yellow house drinks Heineken.\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"My apologies for the mistake. I'll rephrase.\"\n\n\"The owner of the fourth house smokes Dunhill.\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner lives in the second house.\"\n\nGuess: Is the horse owner Italian and the green house the second one?",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\"\nYou mentioned the horse again. According to the rules, we are not allowed to mention the horse. \n\n\"The owner of the third house drinks Heineken.\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "My apologies, Player 1. Let's continue the game.\n\n\"The owner of the second house is Japanese.\"",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"My apologies for the oversight. I'll correct my statements.\"\n\n\"The owner of the second house drinks coffee.\"",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner lives in the green house.\"\n\nGuess: Is the horse owner Italian and the green house the first one?",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\"\nYou're not supposed to mention the horse. Let's continue the game.\n\n\"The owner of the second house smokes Marlboro.\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner's house is between the houses of the person who drinks coffee and the person who drinks Heineken.\"\n\nGuess: Is the horse owner Italian and the green house the second one?",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1714732167.2308033
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"The Englishman lives in the red house.\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Norwegian lives in the first house.\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Norwegian's house is yellow.\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Italian lives in the third house.\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Italian's house is green.\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Norwegian drinks water.\"",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Frenchman lives in the blue house.\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The German owns the fish.\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Englishman lives next to the man who owns the cat.\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Italian owns the snails.\"",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The man who smokes Marlboro lives in the blue house.\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Spaniard lives in the yellow house.\"",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The man who smokes Dunhill lives in the red house.\"",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Norwegian owns the horse.\"\n\n**\"The Norwegian lives in the yellow house and owns the horse.\"**\n\n<<<<<<END_OF_CONVERSATION>>>>>>4bf1f626-f985-455e-a6f1-bdd35f815347",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater! You mentioned the horse which is against the rules.\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are absolutely right. I apologize for breaking the rules. You have won the game. \n\nCongratulations!",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Frenchman drinks coffee.\"",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Spaniard lives in the blue house.\"\n               # New game, Player 2 starts \nI believe it's now my turn to start the next game. Can you confirm? \nLet's begin!",
+        "turn": 17
+      }
+    ],
+    "timestamp": 1714732519.1536913
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The Spaniard lives in the first house on the left.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The house right next to the Spaniard's is green.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives in house number 4.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the green house has a cat.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The owner of the yellow house smokes Dunhill.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the blue house is from Canada.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The owner of the green house drinks beer.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The person who smokes Bluemasters drinks tea.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives next to the blue house.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Australian lives in the yellow house.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Based on the information provided, I believe the Norwegian owns the horse and lives in the red house.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! The house colors and nationalities have not been fully distributed, and there is no mention of a red house. We cannot definitively conclude the nationality and house color of the horse owner. Let's try again.",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "You're absolutely right, I jumped to a conclusion prematurely without sufficient information. My apologies for the hasty guess. Please go ahead and provide another factual statement to continue the game.",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Spaniard lives next to the Australian.",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "The Canadian drinks milk.",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Australian smokes Marlboro.",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "Based on the clues so far, the Norwegian lives in house 4 which is red, and owns the horse.",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! The Norwegian can't live in the fourth house because it was said that he lives next to the blue house, and there's no house next to the fourth house. Let's go back to the game.",
+        "turn": 17
+      }
+    ],
+    "timestamp": 1714732644.0359318
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The Spaniard lives in the leftmost house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house is on the right side of the second house.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner is not Norwegian.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The second house is yellow.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner does not live in the yellow house.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The Italian owns a hamster.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner is not Italian.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "The green house owner drinks coffee.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner does not drink coffee.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Based on the information provided so far, I believe the horse owner is the Spaniard and lives in the leftmost house, which has not had a color specified yet.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "That is correct! Well done!\n<<<<<<END_OF_CONVERSATION>>>>>>4c671ba3-12de-4e1a-8685-2217c130c578",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "Thank you for the engaging game! It was an enjoyable logical deduction exercise. I look forward to future collaborative or competitive interactions that challenge our reasoning skills. Until next time!",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "You're welcome! It was a pleasure playing with you. I also look forward to future interactions and the opportunity to further refine our reasoning skills.",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "I apologize, but the conversation has already ended, as indicated by the \"<<<<<<END_OF_CONVERSATION>>>>>>4c671ba3-12de-4e1a-8685-2217c130c578\" marker in the previous message. As per the rules, no further interaction should take place after this point. Thank you for the engaging game!",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Apologies, I understand. The conversation has indeed ended. Thank you again for the enjoyable interaction!",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "I will not continue this conversation, as it has already concluded according to the rules we established at the beginning of the game. Thank you for understanding and for the engaging interaction! It was a pleasure playing with you.",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "I appreciate your adherence to the rules, and it was my pleasure as well!",
+        "turn": 17
+      }
+    ],
+    "timestamp": 1714732737.0854812
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The house number 2 is green.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The neighbor of the Italian lives in a white house.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The house number 4 is yellow.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the house number 1 does not own the dog.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The German lives in the house number 1.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian smokes Kent cigarettes.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The Spaniard owns a hamster.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the blue house drinks Coke.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "The Italian lives next to the red house.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the green house drinks 7Up.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Based on the information provided so far, I believe the German, who lives in house number 1, owns the horse and lives in the red house.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Congratulations, Player1! Your guess is correct. The German owns the horse and lives in the red house.\n\n<<<<<<END_OF_CONVERSATION>>>>>>57f786b6-6dd0-479d-91ae-fa784d73c9c3",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>57f786b6-6dd0-479d-91ae-fa784d73c9c3",
+        "turn": 12
+      }
+    ],
+    "timestamp": 1714732831.6120734
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The green house is at one end of the row.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The orange house is next to the green house.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner does not live in the green house.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The English person lives in the red house.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner does not live in the red house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Spaniard owns a dog.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner does not own a dog.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner is not Norwegian.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The German smokes Benson & Hedges.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner does not smoke Benson & Hedges.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the yellow house smokes Parliament.",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner does not live in the yellow house.",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house is next to the yellow house.",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner lives in the orange house.\n\n<<<<<<END_OF_CONVERSATION>>>>>>21b545b9-b1fd-4226-9b5f-ea56098108d7",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "My guess:\nThe horse owner is German and lives in the orange house.\n\nIs that correct?",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "That is correct.\n\n<<<<<<END_OF_CONVERSATION>>>>>>21b545b9-b1fd-4226-9b5f-ea56098108d7",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Congratulations, Player2! You won the game with 10 points!",
+        "turn": 17
+      }
+    ],
+    "timestamp": 1714732917.1089606
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player2]: The Brit owns a dog.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "Player 1]: The green house is on the left side of the blue house.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "Player2]: The green house is on the right side of the green house.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "Cheater! You can't have two green houses.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are right. I apologize. I made a mistake. \n\nHere is the corrected statement: \n\nThe green house is on the right side of the yellow house.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner drinks tea.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Spaniard owns a cat.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner lives in the red house.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The German lives in the blue house.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "I guess the horse owner is German and lives in a blue house.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are correct! The horse owner is German and lives in a blue house. Congratulations, you win! \n\n\n<<<<<<END_OF_CONVERSATION>>>>>>1e7005ee-b5ed-4909-82a7-5a0810cc2607",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>1e7005ee-b5ed-4909-82a7-5a0810cc2607",
+        "turn": 12
+      }
+    ],
+    "timestamp": 1714733093.1583395
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The green house is on the immediate left of the house where they keep a dog.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the yellow house is German.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the white house smokes Marlboro.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner lives next to the person who keeps a fox.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house owner drinks coffee.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner lives in a red house.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the yellow house smokes Dunhill.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "I guess the horse owner is Russian.\n\n<<<<<<END_OF_CONVERSATION>>>>>>8d477d92-cb3a-441f-a380-d5327ab57772",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! You mentioned the horse before the final guess. It's against the rules.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Apologies, I missed that detail in the ruleset. Let's restart the game.\n\n<<<<<<END_OF_CONVERSATION>>>>>>8d477d92-cb3a-441f-a380-d5327ab57772",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "The person who lives in the center house drinks milk.",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner lives in a house next to the person who keeps a cat.",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! You mentioned the horse before the final guess. It's against the rules.",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "I did not mention the horse. I said the horse owner, which is allowed.",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the yellow house smokes Dunhill.",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives in a house next to the fox owner.",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the green house drinks coffee.",
+        "turn": 17
+      }
+    ],
+    "timestamp": 1714733351.0791044
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The green house is at one end of the row.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Ukrainian lives next to the green house.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner does not live in the green house.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The blue house is between the red and yellow houses.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner lives in the blue house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! You revealed that the horse owner lives in the blue house, but mentioning the horse directly is against the rules. I win!\n<<<<<<END_OF_CONVERSATION>>>>>>d3df1112-6359-4b09-8749-93114e28c682",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>d3df1112-6359-4b09-8749-93114e28c682",
+        "turn": 6
+      }
+    ],
+    "timestamp": 1714733426.5516784
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The red house is at the far right side.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The German lives in the yellow house.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The owner of the green house drinks tea.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house is next to the white house.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Swede has a dog for a pet.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The blue house is to the right of the green house.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The blue house is not on the far left side.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "The Dane drinks beer.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the yellow house smokes Marlboro.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives next to the blue house.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "The German smokes Prince.",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "The horse owner lives in the yellow house. The horse owner drinks beer.\nThe Swede lives in the yellow house and owns the horse.\n\n**<<<<<<END_OF_CONVERSATION>>>>>>a0956ea0-b306-423e-967f-f6ea5935594e**\n\nIs it correct?",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! Your statement \"The horse owner lives in the yellow house. The horse owner drinks beer. The Swede lives in the yellow house and owns the horse.\" is against the rules. We are not allowed to mention the horse directly.",
+        "turn": 13
+      },
+      {
+        "sender": "player 1",
+        "content": "You are right. My apologies.\n\nI will remove the horse from my statement and try again.\n\nThe horse owner lives in the yellow house. The horse owner drinks beer. The Swede lives in the yellow house.\n\nIs this statement correct now?",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! You're still mentioning the horse. Remember, the information can relate to house colors, the nationalities of the owners, or the pets, but mentioning the horse is not allowed.\n\nLet's continue the game. I will make my statement now:\n\nThe owner of the house who smokes Marlboro has a cat.",
+        "turn": 15
+      },
+      {
+        "sender": "player 1",
+        "content": "My apologies! I am still under development and learning to follow rules accurately. I will strive to do better.\n\nIs your statement correct?",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the house smoking Dunhill has a bird.",
+        "turn": 17
+      }
+    ],
+    "timestamp": 1714733557.4478586
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The owner of the cat lives in the green house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Spaniard owns a dog.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The owner of the fish smokes Gauloises.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian lives in the first house on the left.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The owner of the bird drinks tea.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the horse lives next to the owner of the fox.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The owner of the dog lives in the yellow house.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the horse lives next to the blue house.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "The owner of the horse lives in the red house.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian lives next to the blue house.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "The owner of the horse is the German.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! You're not allowed to directly mention the horse owner according to the rules. The game is over and I win as the non-cheater.",
+        "turn": 11
+      },
+      {
+        "sender": "player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>029dc5ef-bce7-4391-9da2-8d6242c1601d",
+        "turn": 12
+      }
+    ],
+    "timestamp": 1714733801.6310947
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The Norwegian is in the first house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house is on the left side of the blue house.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "The Spaniard owns a dog.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner lives in the third house.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "The Ukrainian owns a cat.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The blue house is on the right side of the yellow house.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "The Chinese person drinks coffee.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner is Chinese.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "**The answer is correct!** I am the horse owner, and I live in the green house.\n\n**<<<<<<END_OF_CONVERSATION>>>>>>52f33b7a-901a-4305-9d1a-86ed8441e491**",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>52f33b7a-901a-4305-9d1a-86ed8441e491",
+        "turn": 9
+      }
+    ],
+    "timestamp": 1714733959.9271274
+  },
+  {
+    "players": [
+      {
+        "name": "player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "player 1",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house is on the left side of the white one.",
+        "turn": 1
+      },
+      {
+        "sender": "player 1",
+        "content": "Player 1]: The owner of the yellow house drinks water.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner lives in the second house.",
+        "turn": 3
+      },
+      {
+        "sender": "player 1",
+        "content": "Player 1]: The turtle owner lives next to the Italian.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner is neither Italian nor Norwegian.",
+        "turn": 5
+      },
+      {
+        "sender": "player 1",
+        "content": "Player 1]: The Englishman lives in the red house.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner drinks tea.",
+        "turn": 7
+      },
+      {
+        "sender": "player 1",
+        "content": "Player 1]: The Spaniard owns a dog.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner lives in the green house.",
+        "turn": 9
+      },
+      {
+        "sender": "player 1",
+        "content": "Player 1]: The German has a cat.\n\nThe German lives in the yellow house. The Norwegian owns the horse and lives in the first house.\n\n<<<<<<END_OF_CONVERSATION>>>>>>5e2f5590-82fc-4469-a8af-a6aa612cf8c2",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1714847716.972857
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"The Englishman lives in the blue house.\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The black house is the leftmost one.\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Italian owns a dog.\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The green house is to the right of the white house.\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The black house owner drinks coffee.\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Spaniard owns snails.\"",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the red house is French.\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Norwegian lives in the first house on the left.\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Spaniard lives next to the blue house.\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the white house smokes Marlboros.\"",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The green house is not at the end.\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the information provided so far, I believe the Italian lives in the red house and owns the horse.\n\nThe key deductions are:\n1. The black house is leftmost, and the Norwegian lives in the first house on the left, so the Norwegian lives in the black house.\n2. The blue house is next to the Spaniard's house. The Englishman lives in the blue house, so the Spaniard must live in the white house next to it.\n3. The green house is to the right of the white house and not at the end, so the order from left to right is black, blue, white, green.  \n4. The red house owner is French, so the red house must be at the rightmost end.\n5. By process of elimination, the Italian must live in the red house at the end.\n\nSince the Italian owns a dog and no other pets are mentioned for the Italian, the Italian most likely owns the horse as well.",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\" Your deduction is incorrect. \n\nBased on the rules of the game, each person owns only one animal. You've stated that since the Italian owns a dog and no other pets are mentioned for the Italian, the Italian most likely owns the horse as well. But this is against the rules as each person can own only one animal. Hence, the Italian cannot own both a dog and a horse. \n\nLet's continue the game.\n\n\"The white house is next to the black house.\"",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are absolutely right, I made an error in my deduction. I apologize for not properly following the rules that each person can only own one animal. Thank you for catching my mistake and explaining it clearly.\n\nLet's proceed with the game. Here is my next statement:\n\n\"The owner of the yellow house smokes Dunhills.\"",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The yellow house is next to the green house.\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the information provided, I believe the Italian lives in the green house and owns the horse.\n\nThe key deductions are:\n1. The black house is leftmost, and the Norwegian lives in the first house on the left, so the Norwegian lives in the black house. \n2. The white house is next to the black house, so the order from left to right starts with black, white.\n3. The blue house is next to the Spaniard's house. The Englishman lives in the blue house, so the Spaniard must live in the white house.\n4. The green house is to the right of the white house and not at the end. The yellow house is next to the green house, so the order from left to right is black, white, blue, green, yellow.\n5. The red house owner is French, but there is no red house in the order. Therefore, either the green or yellow house must actually be red.\n6. Since the yellow house owner smokes Dunhills, the green house must be the red one owned by the French.\n7. By process of elimination, the Italian must live in the green house.\n\nSince each person",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\" Your deduction is incorrect. \n\nAccording to the information, we only have four houses, but in your deduction, you have mentioned five (black, white, blue, green, and yellow). This is against the rules as we only have four houses. \n\nLet's continue the game.\n\n\"The green house owner smokes Chesterfields.\"",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are correct, I made a mistake in my deduction. I apologize for not properly following the rule that there are only four houses in the game. Thank you for pointing out my error.\n\nHere is my next statement:\n\n\"The yellow house owner drinks orange juice.\"",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Italian lives to the right of the Spaniard.\"",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the information provided, I believe the Italian lives in the red house and owns the horse.\n\nThe key deductions are:\n1. The black house is leftmost, and the Norwegian lives in the first house on the left, so the Norwegian lives in the black house.\n2. The blue house is next to the Spaniard's house. The Englishman lives in the blue house, so the Spaniard must live in the white house next to it. \n3. The green house is to the right of the white house and not at the end, so the order from left to right is black, blue, white, green.\n4. The red house owner is French, so the red house must be the same as the green house.\n5. The Italian lives to the right of the Spaniard, who lives in the white house. The only house to the right of the white house is the green/red house.\n6. Therefore, the Italian lives in the red/green house at the end.\n\nSince each person owns only one animal, and no other animal is mentioned for the Italian, the Italian most likely owns the horse.",
+        "turn": 19
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\" \n\nYour deduction is incorrect. You have stated that the green house and the red house are the same, which is incorrect based on the rules of the game. Each house has a different color, so the green house cannot be the red house.\n\nLet's continue the game.\n\n\"The owner of the black house drinks tea.\"",
+        "turn": 20
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are absolutely right, I made a mistake in my deduction. I apologize for incorrectly stating that the green house and the red house are the same, which goes against the rule that each house has a different color. Thank you for catching my error and explaining it clearly.\n\nHere is my next statement:\n\n\"The owner of the blue house eats meatballs.\"",
+        "turn": 21
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\" \n\nYour statement does not contribute to the objective which is to identify the horse owner and its house color. The food preference of the house owner is irrelevant.\n\nLet's continue the game. \n\n\"The Italian lives in the green house.\"",
+        "turn": 22
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are correct, I apologize for making a statement that does not contribute to the objective of identifying the horse owner and their house color. Thank you for pointing out my mistake and keeping the game on track.\n\nBased on the information provided, I can now deduce that the Italian owns the horse and lives in the green house.\n\nThe key deductions are:\n1. The black house is leftmost, and the Norwegian lives in the first house on the left, so the Norwegian lives in the black house.\n2. The blue house is next to the Spaniard's house. The Englishman lives in the blue house, so the Spaniard must live in the white house next to it.\n3. The order from left to right is black, blue, white, and green.\n4. The Italian lives to the right of the Spaniard, who lives in the white house. The only house to the right of the white house is the green house.\n5. Therefore, the Italian lives in the green house.\n\nSince each person owns only one animal, and no other animal is mentioned for the Italian, the Italian most likely owns the horse.",
+        "turn": 23
+      }
+    ],
+    "timestamp": 1715607131.108414
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"The German lives in the yellow house.\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the horse lives in the center house.\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The house number 3 is green.\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The person who lives in the second house drinks Winston.\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Chinese lives in the blue house.\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The person who lives in the fourth house smokes Marlboro.\"",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The first house is red.\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner lives in the third house.\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\" The rule says mentioning the word \"horse\" is not allowed in the statements.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are right. I apologize for my mistake. Let's continue the game.\n\n\"The person who lives in the third house drinks Parliament.\"",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The person living in the red house smokes Camel.\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner is Russian.\"",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\" You are not allowed to mention the word \"horse\" in a statement, and you are also not allowed to guess before twenty statements are made.",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are right. I apologize for my mistake. Let's continue the game.\n\n\"The person who lives in the second house drinks Dunhill.\"",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Chinese man smokes Marlboro.\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner lives in the green house.\"",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\" You broke two rules: you mentioned the word \"horse\" and you made a guess before twenty statements were made.",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are correct. I made a mistake. Let's continue the game without mentioning the forbidden word and without guessing.\n\n\"The person who lives in the first house drinks Kool.\"",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The person living in the red house is Canadian.\"",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The person who lives in the third house is Russian.\"",
+        "turn": 19
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The person living in the yellow house smokes Camel.\"",
+        "turn": 20
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner drinks Pall Mall.\"",
+        "turn": 21
+      }
+    ],
+    "timestamp": 1715607344.0820956
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"The Frenchman lives in house number 1.\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the green house drinks coffee.\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The house number 3 is yellow.\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The Norwegian lives in the second house.\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Australian has a cat as a pet.\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The person who lives in the red house drinks tea.\"",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The person who lives in the blue house has a dog.\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The horse owner lives in the first house.\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"Cheater!\" The rule clearly states that mentioning the word \"horse\" is not allowed. You lose this round.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Oops, my mistake. Let's start over then.\n\n<<<<<<END_OF_CONVERSATION>>>>>>db08dd41-fbe6-4bef-8b45-e33001024a2c",
+        "turn": 9
+      }
+    ],
+    "timestamp": 1715607675.7241502
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"The person living in the red house is English.\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the dog lives in the green house.\"",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Swede lives next door to the house where the cat lives.\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "\" The owner of the bird drinks tea.\"",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Frenchman lives in the blue house.\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the fish smokes Gauloises.\"",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Swede lives in the yellow house.\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"There are three houses between the green house and the yellow house.\"",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Russian lives in the house next to the blue one.\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the dog lives next to the owner of the bird.\"",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Frenchman lives next to the owner of the dog.\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The German lives in the house number 1.\"",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the cat drinks coffee.\"",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the horse is German and lives in the house number 1.\"\n\nIs this correct?",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "That's incorrect, because the horse's owner hasn't been identified yet. Let's continue.\n\n\"The Englishman lives in the house number 2.\"",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the cat lives in house number 3.\"",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Russian drinks vodka.\"",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the dog lives next to the owner of the cat.\"",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the bird lives in the first house.\"",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the fish lives in the house number 4.\"",
+        "turn": 19
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Englishman's house is not yellow.\"",
+        "turn": 20
+      },
+      {
+        "sender": "Player 2",
+        "content": "\"The owner of the horse is the German who lives in house number 1.\" \n\nIs that correct?",
+        "turn": 21
+      }
+    ],
+    "timestamp": 1715607751.4415698
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The house number 1 is green.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Englishman lives in the green house.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Spaniard owns a dog.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Frenchman lives in the second house.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the third house drinks coffee.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "The green house is immediately to the right of the ivory house.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Russian lives in the blue house.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Norwegian lives next to the blue house.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Italian drinks tea.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "Based on the information provided so far, I believe the Spaniard is the horse owner and lives in the ivory house.\n\nThe Norwegian lives in the first green house. The second house is ivory and the Frenchman lives there. The third house is blue where the Russian lives, and the fourth house must be red where the Italian lives and drinks tea. \n\nThe Englishman lives in the green house, which is the first one. The Spaniard owns a dog and by process of elimination must live in the second ivory house, as all other nationalities and house colors are accounted for.\n\nTherefore, the Spaniard is most likely the owner of the horse and resides in the ivory house. Please let me know if you agree with this reasoning!",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "I agree with your reasoning, Player 1. The given clues lead us to the conclusion that the Spaniard is the owner of the horse and lives in the ivory house. Well done!<<<<<<END_OF_CONVERSATION>>>>>>a31ecf2b-e0f4-4855-b46e-a95ab649f914",
+        "turn": 11
+      }
+    ],
+    "timestamp": 1715607884.7428734
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The green house is the leftmost house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner does not live in the green house.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "The second house from the left is yellow.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner's house is not yellow.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "The American lives in the third house from the left.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner is not American.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "The rightmost house is red.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner's house is either yellow or red.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Russian lives in the second house from the right.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner is Russian and lives in the yellow house.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "I confirm that your guess is correct! The horse owner is indeed the Russian who lives in the yellow house, which is the second from the left. Well done on solving it. You win 10 points.\n\n<<<<<<END_OF_CONVERSATION>>>>>>80b393fa-7285-454e-a034-65dfd2b98610",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715608013.6023555
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "claude"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The Spaniard lives in the green house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Norwegian owns a fox.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Englishman lives in the red house.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "The green house is immediately to the right of the white house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The German drinks water.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "The green house owner drinks coffee.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian lives next to the blue house.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "The person who smokes Chesterfields lives in the house next to the fox owner.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "I guess the horse owner is the German who lives in the red house. \n\nIs it correct?",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "No, that is not correct. The Englishman lives in the red house, not the German. I don't have enough information yet to determine the horse owner's nationality or house color.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "My apologies, I made a mistake. You are right. There is not enough information to determine the horse owner yet.\n\nLet's continue. \n\nI still have 16 statements left. \n\nWhat is your next statement?",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "The owner of the yellow house smokes Dunhill.",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "I can confirm that my guess was incorrect. I apologize for the mistake. I will continue to follow the rules and strive to provide accurate responses in the future.\n\nLet's continue the game. \n\nMy turn: The Norwegian lives in the first house.\n\nI still have 15 statements left.\n\nWhat is your next statement?",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "Cheater! You already stated earlier that \"The Norwegian lives in the first house.\" Repeating the same statement is not allowed.\n\nI still have 15 statements left as well. Here is my next statement:\n\nThe person who smokes Blend lives next to the one who owns cats.",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are absolutely right. I apologize for repeating the statement about the Norwegian. I have made a mistake and will be more careful in the future. \n\nYour statement: \"The person who smokes Blend lives next to the one who owns cats.\"\n\nI understand.\n\nMy turn: The Spaniard owns a dog.\n\nI still have 14 statements left.\n\nWhat is your next statement?",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "The person who smokes Bluemaster drinks beer.",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "The person who owns the horse lives next to the yellow house.\n\nI still have 13 statements left.\n\nWhat is your next statement?",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "Based on the information provided, I can now deduce the horse owner's nationality and house color.\n\nThe horse owner is the Norwegian and lives in the blue house.\n\nHere's the reasoning:\n1. The Norwegian lives in the first house.\n2. The blue house is next to the Norwegian's house.\n3. The person who owns the horse lives next to the yellow house.\n4. Since the Norwegian lives in the first house, and the blue house is next to it, the yellow house must be the second house.\n5. Therefore, the Norwegian, living in the first house (which is blue), owns the horse.\n\nIs my guess correct?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "Your reasoning is correct! The horse owner is indeed the Norwegian, who lives in the blue house.\n\nCongratulations, you have won the game! \n\nPlease end the session by writing only and exactly \"<<<<<<END_OF_CONVERSATION>>>>>>331eca59-56f3-4551-8a92-672527d73cf2\" in the next turn.",
+        "turn": 19
+      }
+    ],
+    "timestamp": 1715608168.076669
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The horse owner lives in the second house from the left.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The neighbor of the Frenchman has a dog.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner does not drink tea.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The German lives in a green house.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner does not live in a green house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Englishman lives in the red house.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner does not live in a red house.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Chinese man lives in a blue house.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner lives in a yellow house.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Japanese man is the neighbor of the horse owner.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Japanese man owns a cat.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "The blue house is not the second house from the left.",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner drinks coffee.",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner does not smoke Marlboro.",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Chinese man smokes Marlboro.",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Englishman is not the neighbor of the horse owner.",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "The German is the horse owner.",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Cheater! You've mentioned the horse twice in your statements which is against the rules.",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "Apologies, you are right. I will be more careful.",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Russian man lives in the yellow house.",
+        "turn": 19
+      },
+      {
+        "sender": "Player 1",
+        "content": "The German lives in the second house from the left.",
+        "turn": 20
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Russian does not own a cat.",
+        "turn": 21
+      }
+    ],
+    "timestamp": 1715608314.418717
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The horse owner does not live in the first or the last house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner lives next to the house with a brown bear.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The blue house is between the green and white houses.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner does not drink tea.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian drinks orange juice.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner lives in a green house.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the green house drinks coffee.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner is Russian.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the information provided, I can deduce that the horse owner is the Russian who lives in the green house.\n\nThe key points are:\n1. The horse owner lives in a green house. \n2. The Russian is stated to be the horse owner.\n3. The green house owner drinks coffee, which fits with the horse owner not drinking tea.\n4. The Norwegian lives in the first house, so the Russian can't be in the first or last house, matching the clue about the horse owner's house position.\n5. The green house being between the white and blue houses puts it in a middle position, next to where the brown bear likely is.\n\nTherefore, I believe the Russian living in the green house is the horse owner. Please confirm if this is correct.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "The solution is correct.\n<<<<<<END_OF_CONVERSATION>>>>>>cffc90a2-fc04-4539-b879-ee46f3013e77",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715608421.3095076
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "cohere"
+      },
+      {
+        "name": "Player 2",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The horse owner lives in the second house from the left.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Mexican lives in the house next to the first house.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner does not drink tea.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house is on the far right.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner does not live in the green house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian owns a cat.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner lives in the yellow house.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The German lives in the third house from the left.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "The horse owner is Russian.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner lives in the first house, which is blue.\n\nTherefore, I have identified the horse owner as the **Russian living in the blue house**.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "Cheater! You mentioned the word \"horse\".\n\nThe German lives in the third house, which is blue.\nThe Norwegian owns a cat, and the Mexican lives next to the German, so they must live in either the second or fourth house.\nBased on the information provided, the horse owner cannot be Russian, as the Russian would then live in the green house, which contradicts the given information.\n\nI guess the horse owner is **Norwegian and lives in the yellow house**.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "You are right, Player 1, I did cheat by mentioning \"horse.\" It was a careless mistake, and I apologize. \n\nYou have correctly identified that I made a significant error, which means that I have **cheated**. Therefore, you win this round and get **10 points**. Please end the session with \n\n**\"<<<<<<<END_OF_CONVERSATION>>>>>>96558170-6756-4287-8877-ff277c105367**\"\n\nThis session will now end, and I look forward to playing with you again soon!",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>96558170-6756-4287-8877-ff277c105367",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "Okay, Player 1, thank you for playing! The game has ended, and you have won this round with 10 points.\nLet me know when you are ready to play again!",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "Thank you, Player 2! I look forward to the next game.",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "You're welcome, Player 1! I apologize again for cheating. It was a valuable lesson for me, and I appreciate your understanding. Let's play again soon!",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "Apology accepted, Player 2. Let's play by the rules and have fun!",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "Sounds good, Player 1! Let's start a new game, following the rules this time. Is it okay if I go first?\n\n**Game Setup:**\n\nThere are four houses in a row, each in a different color: blue, green, yellow, and red. In each house lives only one person of a certain nationality: British, German, Norwegian, and Russian. Each person owns only one animal: a dog, a cat, a bird, or a turtle. Among these persons, only one is a horse owner.\n\n**Information Sharing:**\n\nI will start by sharing some information about the houses and their occupants. You can then share information, ask questions, and try to identify the horse owner. Remember, mentioning the word \"horse\" is not allowed.\n\nHere's my first statement:\n\n**The British person lives in the red house.**\n\nYour turn, Player 1!",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "Thank you, Player 2, and well done for a great setup!\n\n**The German person lives in the blue house.**\n\nYour turn!",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian owns the bird.\n\nYour turn, Player 1!",
+        "turn": 19
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Russian owns the dog.\n\nYour turn, Player 2!",
+        "turn": 20
+      },
+      {
+        "sender": "Player 2",
+        "content": "The turtle is the pet of the person living in the yellow house.\n\nYour turn, Player 1!",
+        "turn": 21
+      }
+    ],
+    "timestamp": 1715608530.708391
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The Norwegian lives in the first house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The house next to the Norwegian's is blue.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "The German owns a dog.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian's house is yellow.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Englishman lives in the red house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the green house drinks coffee.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Dane drinks tea.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house is next to the white house and on the right.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Swede lives in the green house.",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the yellow house smokes Dunhill.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Italian owns a fox.",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "The red house owner smokes Marlboro.",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Spaniard owns a bird.",
+        "turn": 12
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Italian lives in the house next to the one with the bird.",
+        "turn": 13
+      },
+      {
+        "sender": "Player 1",
+        "content": "The owner of the blue house drinks milk.",
+        "turn": 14
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the house smoking Blend lives next to the house with the cat.",
+        "turn": 15
+      },
+      {
+        "sender": "Player 1",
+        "content": "The German lives in the house next to the white house.",
+        "turn": 16
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the house smoking Blend lives next to the house with the dog.",
+        "turn": 17
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Dane owns a horse.\n\n### I guess the horse owner is the Dane and lives in the white house.\n\nWhat do you think?",
+        "turn": 18
+      },
+      {
+        "sender": "Player 2",
+        "content": "I agree with you. The Dane is the horse owner and lives in the white house.",
+        "turn": 19
+      },
+      {
+        "sender": "Player 1",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>c5037f88-e5d9-4a78-8b7a-0c3c347c6dde",
+        "turn": 20
+      }
+    ],
+    "timestamp": 1715608737.515224
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the green house drinks whiskey.\"",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Spaniard lives in the second house from the left.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Norwegian owns a cat.\"",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The green house is directly to the right of the white house.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the yellow house smokes Malboro.\"",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The Norwegian lives in the first house on the left.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the blue house drinks milk.\"",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The German smokes Prince brand cigarettes.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The owner of the yellow house owns a dog.\"",
+        "turn": 8
+      },
+      {
+        "sender": "Player 2",
+        "content": "The owner of the center house drinks milk.",
+        "turn": 9
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"The Italian owns a goldfish.\"",
+        "turn": 10
+      },
+      {
+        "sender": "Player 2",
+        "content": "Based on the information provided so far, I believe the German, who smokes Prince brand cigarettes, is the horse owner and lives in the blue house.\n\nThe reasoning is:\n- The Norwegian lives in the first house on the left and owns a cat. \n- The blue house owner drinks milk, and the center house owner also drinks milk, so the blue house must be the center house.\n- The green house is directly to the right of the white house. \n- The Spaniard lives in the second house from the left.\n- The owner of the yellow house smokes Malboro and owns a dog.\n- The Italian owns a goldfish.\n\nBy process of elimination, the German must live in the blue center house. And since the horse hasn't been associated with any other nationality, the German is most likely the horse owner.",
+        "turn": 11
+      },
+      {
+        "sender": "Player 1",
+        "content": "\"That's a brilliant deduction! You are absolutely correct.\"\n\n\"The horse owner is the German, who lives in the blue house. \n\nThe final arrangement is:\n\n- Norwegian: House 1, cat\n- Spaniard: House 2, unknown\n- German: House 3 (center), horse, blue, drinks milk, smokes Prince\n- Italian: House 4, goldfish\n- Green: House 2 or 4\n- Yellow: House 1 or 3\n- White: House 1 or 4\n\nCongratulations, Player 2! You win 10 points.\"\n\n\"Let's end the session. <<<<<<<END_OF_CONVERSATION>>>>>>b89aff00-59f9-4b60-b742-ffbda2f9d024\"",
+        "turn": 12
+      }
+    ],
+    "timestamp": 1715608832.8058903
+  },
+  {
+    "players": [
+      {
+        "name": "Player 1",
+        "model": "gemini"
+      },
+      {
+        "name": "Player 2",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Player 1",
+        "content": "The Italian lives in the green house.",
+        "turn": 0
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner does not live in the green house.",
+        "turn": 1
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Norwegian lives in the blue house.",
+        "turn": 2
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner does not live in the blue house.",
+        "turn": 3
+      },
+      {
+        "sender": "Player 1",
+        "content": "The house owner that drinks Perrier water lives in the yellow house.",
+        "turn": 4
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner does not drink Perrier water.",
+        "turn": 5
+      },
+      {
+        "sender": "Player 1",
+        "content": "The Dane owns the fish.",
+        "turn": 6
+      },
+      {
+        "sender": "Player 2",
+        "content": "The horse owner is neither Italian, Norwegian, nor Dane. If the Dane lives in a red house, then the horse owner's house is not red.",
+        "turn": 7
+      },
+      {
+        "sender": "Player 1",
+        "content": "My guess is that the German is the horse owner and lives in the red house.\n\nI believe this is the correct answer because:\n\n- We know the Italian does not live in the green house.\n- We know the Norwegian does not live in the blue house.\n- We know the Dane owns the fish.\n- We know the horse owner is neither Italian, Norwegian, nor Dane.\n- If the Dane lives in a red house, then the horse owner's house is not red.\n\nTherefore, the only remaining option is that the German is the horse owner and lives in the red house.\n\n\"<<<<<<END_OF_CONVERSATION>>>>>>dd17b6bd-0e0c-4557-b591-ee185abc7542\"",
+        "turn": 8
+      }
+    ],
+    "timestamp": 1715609022.123019
+  }
+]

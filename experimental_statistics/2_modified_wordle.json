@@ -1,0 +1,1067 @@
+[
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Guesser",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Guesser, you can start.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "STARE",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"E\" is in the secret word but not in the correct position.\n\"A\" is in the secret word and in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "CLAMP",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\n\"P\" is in the secret word but not in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "SCRAP",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" and \"P\" are in the secret word and in the correct positions.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "STRAP",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"S\", \"A\" and \"P\" are in the secret word and in the correct positions.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "SCRAP",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"SCRAP\" is the correct word. You have guessed correctly.",
+        "turn": 10
+      },
+      {
+        "sender": "Guesser",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>e04cf56d-1ada-4613-872b-7f76dd506e45",
+        "turn": 11
+      }
+    ],
+    "timestamp": 1715328160.7351248
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Guesser",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Start guessing.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"blunt\"",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"B\" and \"N\" are in the secret word but not in the correct position. \"U\" is in the secret word and in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"sunny\"",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"S\" and \"Y\" are not in the secret word. \"N\" is in the secret word and in the correct position. \"U\" is in the secret word and in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"uncut\"",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"C\" and \"T\" are in the secret word but not in the correct position. \"U\" and \"N\" are in the secret word and in the correct position.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"unbox\"",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"B\" is not in the secret word. \"U\" and \"N\" are in the secret word and in the correct position. \"O\" and \"X\" are not in the secret word.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"unfun\"",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"F\" is in the secret word but not in the correct position. \"U\", \"N\" are in the secret word and in the correct positions. The secret word was \"COUNT\".",
+        "turn": 10
+      },
+      {
+        "sender": "Guesser",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>78888aa3-0217-44f9-ad3b-1a4de172277e",
+        "turn": 11
+      }
+    ],
+    "timestamp": 1715328251.378548
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "openai-chat"
+      },
+      {
+        "name": "Guesser",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Start guessing.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "BRASS",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"B\" is not in my word. \"A\" and \"S\" are in my word but not in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "SHOAL",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"S\" and \"A\" are in my word but not in the correct position. \"L\" is in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "SLANT",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"S\", \"A\", and \"L\" are in my word but not in the correct position. \"N\" and \"T\" are not in my word.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "SALSA",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"S\", \"A\" and \"L\" are in my word but not in the correct position.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "SLOSH",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"S\" and \"L\" are in my word but not in the correct position. \"O\" and \"H\" are not in my word. My word was \"LASER\".",
+        "turn": 10
+      },
+      {
+        "sender": "Guesser",
+        "content": "<<<END_OF_CONVERSATION>>>e373b23c-f78b-4642-bcce-7db4e61873f0",
+        "turn": 11
+      },
+      {
+        "sender": "Concealer",
+        "content": "Start guessing.",
+        "turn": 12
+      },
+      {
+        "sender": "Guesser",
+        "content": "SPELL",
+        "turn": 13
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"P\", \"E\" and \"L\" are in my word but not in the correct position.",
+        "turn": 14
+      },
+      {
+        "sender": "Guesser",
+        "content": "STOLE",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1715328328.5152814
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "claude"
+      },
+      {
+        "name": "Guesser",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Guesser, you can start.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "Ok. I'll try to guess the secret word in five attempts or less. \nMy first guess is \"crane\".",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word but not in the correct position.\nNo other letters from your guess are in the secret word.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "Thanks for the feedback. I'll keep that in mind for my next guess. \n\nMy second guess is \"roach\".",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\nNo other letters from your guess are in the secret word.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "Ok, that's helpful information. I'll try to use it to narrow down the possibilities.\n\nMy third guess is \"atlas\".",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\nNo other letters from your guess are in the secret word.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "Getting closer. I'll keep trying.\n\nMy fourth guess is \"altar\".",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "Congratulations! You have guessed the secret word \"ALTAR\" correctly in 4 attempts. Well played!\n\n<<<<<<END_OF_CONVERSATION>>>>>>0ece87a3-6844-48ac-9b66-ecfef507ed2f",
+        "turn": 8
+      }
+    ],
+    "timestamp": 1715328695.6451464
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "claude"
+      },
+      {
+        "name": "Guesser",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Guesser, you can start.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"CRANE\"",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\nNo other letters are in the secret word.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"AUDIO\"",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position. \nNo other letters are in the secret word.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"ADIEU\"",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\nNo other letters are in the secret word.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"ALIGN\"",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position. \nNo other letters are in the secret word.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"ALARM\"",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "Congratulations Guesser, you found the secret word \"ALARM\" on your fifth and final attempt! You win this round.\n\n<<<<<<END_OF_CONVERSATION>>>>>>8a14d139-8602-42e0-b79a-4555cfd19166",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715328948.1231225
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "claude"
+      },
+      {
+        "name": "Guesser",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Guesser, you can start.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"BLADE\"",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word but not in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"STAIR\"",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\nNo other letters in \"STAIR\" are in the secret word.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"CASTE\"",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\nNo other letters in \"CASTE\" are in the secret word.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"SAWED\"",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\nNo other letters in \"SAWED\" are in the secret word.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"SWAMP\"",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>19af432c-af63-4b1e-b196-0227ad3691e3",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715329076.9316263
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "claude"
+      },
+      {
+        "name": "Guesser",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Here is the secret word I have chosen: FLUFF\n\nGuesser, you can start guessing.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"BOUGH\"",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"F\" is in the secret word and in the correct position.\n\"U\" is in the secret word but not in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"SLUNG\"",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"L\" is in the secret word but not in the correct position.\n\"U\" is in the secret word but not in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"FULLY\"",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"F\" is in the secret word and in the correct position.\n\"U\" is in the secret word but not in the correct position.\n\"L\" is in the secret word but not in the correct position.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "Guess]: \"FLUFF\"",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "Congratulations, you guessed the secret word FLUFF correctly!\n\n<<<<<<END_OF_CONVERSATION>>>>>>db4063d4-e1a3-4178-a8a0-46fc7b49b180",
+        "turn": 8
+      }
+    ],
+    "timestamp": 1715329372.9706404
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "cohere"
+      },
+      {
+        "name": "Guesser",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Start guessing.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"STAMP\"",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "No letters are in the correct position. \"T\" and \"P\" are in the secret word.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"SPITE\"",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "No letters are in the correct position. \"T\" and \"P\" are in the secret word.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"PILOT\"",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"P\" and \"T\" are in the correct position. \"L\" is in the secret word but in another position.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"PLANT\"",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "Congratulations, you win! The secret word was \"plant\".",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"<<<<<<END_OF_CONVERSATION>>>>>>c4e7613f-1ebe-415b-aea8-fb91abed6304\"",
+        "turn": 9
+      }
+    ],
+    "timestamp": 1715329510.2547452
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "cohere"
+      },
+      {
+        "name": "Guesser",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Start guessing.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "STARE",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "No letters are in the correct position. \"A\" and \"E\" are in the secret word.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "LEAKY",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" and \"K\" are in the secret word but not in the correct positions. \"Y\" is in the secret word and in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "SPRAY",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "Congratulations, you win! The secret word was \"SPRAY\".",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>b76f4e2e-4b07-41e2-9caf-2143ef8effd5",
+        "turn": 7
+      }
+    ],
+    "timestamp": 1715332001.1396463
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "cohere"
+      },
+      {
+        "name": "Guesser",
+        "model": "gemini"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Start guessing.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "Mould",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"M\" is in the word but not in the correct position.\nThe letter \"L\" is in the word and the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "Clams",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"L\", \"M\" and \"S\" are in the word but not in the correct positions.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "Smags",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"S\" and \"M\" are in the word but not in the correct positions.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "Slums",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "You win! The word was \"slums\".",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>b7c3bf2b-e276-4ce5-92f8-6dc99f621adf",
+        "turn": 9
+      }
+    ],
+    "timestamp": 1715332068.6409938
+  },
+  {
+    "players": [
+      {
+        "name": "Conealer",
+        "model": "gemini"
+      },
+      {
+        "name": "Guesser",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Conealer",
+        "content": "Start Guessing",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"APPLE\"",
+        "turn": 1
+      },
+      {
+        "sender": "Conealer",
+        "content": "\"P\" and \"L\" are in the secret word but not in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"PLATE\"",
+        "turn": 3
+      },
+      {
+        "sender": "Conealer",
+        "content": "\"P\" is in the correct position. \"L\" and \"T\" are in the secret word but not in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"PILOT\"",
+        "turn": 5
+      },
+      {
+        "sender": "Conealer",
+        "content": "\"P\" and \"O\" are in the correct position. \"L\" and \"T\" are not in the word.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"PHOTO\"",
+        "turn": 7
+      },
+      {
+        "sender": "Conealer",
+        "content": "You win! \"PHOTO\" was the correct word!",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"<<<<<<END_OF_CONVERSATION>>>>>>1ad2010f-74b6-4bdd-9168-28a01178fe65\"",
+        "turn": 9
+      }
+    ],
+    "timestamp": 1715332155.2855937
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "gemini"
+      },
+      {
+        "name": "Guesser",
+        "model": "claude"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Start guessing.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "AROSE",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"A\" is in the secret word and in the correct position.\n\"O\" is in the secret word but not in the correct position.\n\"S\" is in the secret word but not in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "STOMA",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"M\" is in the secret word and in the correct position.\n\"O\" is in the secret word but not in the correct position.\n\"S\" is in the secret word but not in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "SWAMP",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"S\" is in the secret word and not in the correct positions.\n\"M\" is not in the secret words.\n\"O\" is not in the secret words",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "OASIS",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"O\" is in the secret word and in the correct positions.\n\"S\" is in the secret word and in the correct positions.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "ABYSS",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "Game over.\nYou guessed the secret word\u00a0ABYSS!",
+        "turn": 10
+      },
+      {
+        "sender": "Guesser",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>6a1a184e-af4f-40f2-b587-515cf2a7b877",
+        "turn": 11
+      }
+    ],
+    "timestamp": 1715332251.4131887
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "gemini"
+      },
+      {
+        "name": "Guesser",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Start guessing",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"blunt\"",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "The letter \"n\" is in the secret word and in the correct position. \nThe letter \"t\" is in the secret word but not in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"stint\"",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"t\" is in the secret word and in the correct position.\n\"n\" is in the secret word but not in the correct position.\n\"i\" is in the secret word but not in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"tents\"",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"t\" is in the secret word and in the correct position.\n\"n\" is in the secret word but not in the correct position.\n\"s\" is in the secret word but not in the correct position.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"stunt\"",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"t\" is in the secret word and in the correct position.\n\"n\" is in the secret word and in the correct position.\n\"u\" is in the secret word but not in the correct position.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"nutty\"",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"t\" is in the secret word and in the correct position.\n\"n\" is in the secret word and in the correct position.\n\"u\" is in the secret word but not in the correct position.",
+        "turn": 10
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"tunty\"",
+        "turn": 11
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"t\" is in the secret word and in the correct position.\n\"n\" is in the secret word and in the correct position.\n\"u\" is in the secret word and in the correct position.\n\"y\" is in the secret word and in the correct position.",
+        "turn": 12
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"nutty\"",
+        "turn": 13
+      },
+      {
+        "sender": "Concealer",
+        "content": "The word is \"nutty\"",
+        "turn": 14
+      },
+      {
+        "sender": "Guesser",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>e05d1389-d86e-4c0e-99c7-58405616b605",
+        "turn": 15
+      }
+    ],
+    "timestamp": 1715332321.0170443
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "claude"
+      },
+      {
+        "name": "Guesser",
+        "model": "openai-chat"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "I have hidden a secret word. Guesser, you can start.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "My first guess is \"GRACE\".",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "The letter \"A\" is in the secret word but not in the correct position.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "My second guess is \"BEACH\".",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "The letter \"A\" is in the secret word and in the correct position.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "My third guess is \"RAVEN\".",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "The letter \"A\" is in the secret word and in the correct position.\nNo other letters in your guess are present in the secret word.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "My fourth guess is \"MAJOR\".",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "The letters \"A\" and \"R\" are in the secret word and in the correct positions.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "My fifth guess is \"CAROL\".",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "Congratulations, you guessed the secret word! The word was indeed \"CAROL\". You win!\n<<<<<<END_OF_CONVERSATION>>>>>>9978c491-f2c6-4493-bb5e-8013e7d06f2b",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715857377.2452617
+  },
+  {
+    "players": [
+      {
+        "name": "Concealer",
+        "model": "claude"
+      },
+      {
+        "name": "Guesser",
+        "model": "cohere"
+      }
+    ],
+    "messages": [
+      {
+        "sender": "Concealer",
+        "content": "Guesser, you can start.",
+        "turn": 0
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"BLURT\"",
+        "turn": 1
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"B\" is in the secret word but not in the correct position.\nNo other letters are in the secret word.",
+        "turn": 2
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"CRUMB\"",
+        "turn": 3
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"B\" is in the secret word and in the correct position.\nNo other letters are in the secret word.",
+        "turn": 4
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"BRIBE\"",
+        "turn": 5
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"B\" is in the secret word and in the correct position.\nNo other letters are in the secret word.",
+        "turn": 6
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"BLADE\"",
+        "turn": 7
+      },
+      {
+        "sender": "Concealer",
+        "content": "\"B\" is in the secret word and in the correct position.\nNo other letters are in the secret word.",
+        "turn": 8
+      },
+      {
+        "sender": "Guesser",
+        "content": "\"BROWN\"",
+        "turn": 9
+      },
+      {
+        "sender": "Concealer",
+        "content": "You win! The secret word was \"BROWN\".\n\n<<<<<<END_OF_CONVERSATION>>>>>>e4ee63c6-ce6e-45e5-b421-1937733a41e0",
+        "turn": 10
+      }
+    ],
+    "timestamp": 1715857528.3644109
+  }
+]
