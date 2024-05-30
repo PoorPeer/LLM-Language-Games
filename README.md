@@ -7,6 +7,8 @@ The research question was "What types of Language-Games pose the greatest challe
 for LLMs in terms of rule adherence?"
 
 3. Project Description
+
+
 The Large Language Models used in the test suite were GPT-4, Claude Opus, Cohere R+ and Gemini Pro.
 Language-Games is a concept used by language philosopher Ludwig Wittgenstein to explain the pragmatic
 view that context determines the meaning of words and sentences.
@@ -18,21 +20,29 @@ if we could confirm the result from earlier studies that the prompt formulation
 impact the results the most.
 
 3. Result
+
+
 Our analysis showed that games with dynamic information pose the greatest challenge for LLMs.
 
-4. How to Install and Run the Project
+5. How to Install and Run the Project
+
+
 The application is built on Farama Foundations ChatArena. It has nine games and the research result.
 You can add your API string to play the games (in the code) and toggle the players.
 
-6. How to Use the Project
+7. How to Use the Project
+
+
 We would love to have additional testing and analysis!
 
-7. Credits
+9. Credits
+
+
 Albin Norbäck
 Stockholm University, DSV
 Farama Foundation
 Ebba Irestad
 Lars Barkström
 
-8. License
+11. License
 GPL
