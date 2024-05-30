@@ -13,7 +13,11 @@ Language-Games is a concept used by language philosopher Ludwig Wittgenstein to 
 view that context determines the meaning of words and sentences.
 
 By use of game-theoretical distinctions three "axes" are used to divide Langage-Games;
-competition v/s cooperation, same v/s different roles, and static v/s dynamic information. 
+
++ competition v/s cooperation
++ same v/s different roles
++ static v/s dynamic information.
+ 
 Eight games were developed and a ninth game "bad rules" was added as a control, to check
 if we could confirm the result from earlier studies that the prompt formulation
 impact the results the most.
