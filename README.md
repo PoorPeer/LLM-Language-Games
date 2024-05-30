@@ -20,7 +20,7 @@ By use of game-theoretical distinctions three "axes" are used to divide Langage-
  
 Eight games were developed and a ninth game "bad rules" was added as a control, to check
 if we could confirm the result from earlier studies that the prompt formulation
-impact the results the most.
+impact the results the most (confirmed).
 
 The Large Language Models used in the test suite were GPT-4, Claude Opus, Cohere R+, and Gemini Pro.
 
