@@ -9,7 +9,6 @@ for LLMs in terms of rule adherence?"
 3. Project Description
 
 
-The Large Language Models used in the test suite were GPT-4, Claude Opus, Cohere R+ and Gemini Pro.
 Language-Games is a concept used by language philosopher Ludwig Wittgenstein to explain the pragmatic
 view that context determines the meaning of words and sentences.
 
@@ -18,6 +17,8 @@ competition v/s cooperation, same v/s different roles, and static v/s dynamic in
 Eight games were developed and a ninth game "bad rules" was added as a control, to check
 if we could confirm the result from earlier studies that the prompt formulation
 impact the results the most.
+
+The Large Language Models used in the test suite were GPT-4, Claude Opus, Cohere R+, and Gemini Pro.
 
 3. Result
 
