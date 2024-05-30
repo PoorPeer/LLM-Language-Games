@@ -40,14 +40,15 @@ You can add your API string to play the games (in the code) and toggle the playe
 
 We would love to have additional testing and analysis!
 
-9. Credits
+9. Credits:
 
 
-Albin Norbäck
-Stockholm University, DSV
-Farama Foundation
-Ebba Irestad
-Lars Barkström
++ Albin Norbäck, for invaluable help
++ Stockholm University, DSV
++ Farama Foundation, for ChatArena
++ Ebba Irestad, for Ebbas Game
++ Lars Barkström, for support
 
-11. License
+11. License:
+    
 GPL
