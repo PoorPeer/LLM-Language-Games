@@ -12,13 +12,13 @@ for LLMs in terms of rule adherence?"
 Language-Games is a concept used by language philosopher Ludwig Wittgenstein to explain the pragmatic
 view that context determines the meaning of words and sentences.
 
-By use of game-theoretical distinctions three "axes" are used to divide Langage-Games;
+By applying game-theoretical distinctions different Langage-Games are placed in a coordinate system with three axes;
 
 + competition v/s cooperation
 + same v/s different roles
 + static v/s dynamic information.
  
-Eight games were developed and a ninth game "bad rules" was added as a control, to check
+Eight games were developed and a ninth game "Bad Rules" was added as a control, to check
 if we could confirm the result from earlier studies that the prompt formulation
 impact the results the most (confirmed).
 
@@ -26,17 +26,14 @@ The Large Language Models used in the test suite were GPT-4, Claude Opus, Cohere
 
 3. Result
 
-
-Our analysis showed that games with dynamic information pose the greatest challenge for LLMs.
+The analysis showed that cooperative games with dynamic information pose the greatest challenge for LLMs.
 
 5. How to Install and Run the Project
 
-
 The application is built on Farama Foundations ChatArena. It has nine games and the research result.
-You can add your API string to play the games (in the code) and toggle the players.
+Run by adding your API string to the code, and play the games with different LLMs by toggling the players.
 
 7. How to Use the Project
-
 
 We would love to have additional testing and analysis!
 
