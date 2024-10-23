@@ -2,7 +2,7 @@
 
    
 LLM-Language-Games is a test suite of nine Language-Games used in the Master research project
-"LLMs and Language-Games" at the Department of Computer and Systems Science, Stockholm University.
+"LLMs and Language-Game Rules" at the Department of Computer and Systems Science, Stockholm University.
 The research question was "What types of Language-Games pose the greatest challenge
 for LLMs in terms of rule adherence?"
 
